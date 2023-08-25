@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "tendances_clips",
+  "info": {
+    "singularName": "tendances-clip",
+    "pluralName": "tendances-clips",
+    "displayName": "tendances_clips",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url_a_venir": {
+      "type": "string"
+    },
+    "image_a_venir": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "url_derniere_sortie": {
+      "type": "string"
+    },
+    "image_derniere_sortie": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

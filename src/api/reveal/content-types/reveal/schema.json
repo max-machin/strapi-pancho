@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "reveals",
+  "info": {
+    "singularName": "reveal",
+    "pluralName": "reveals",
+    "displayName": "reveal",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date_reveal": {
+      "type": "date",
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clips",
+  "info": {
+    "singularName": "clip",
+    "pluralName": "clips",
+    "displayName": "Clips",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "artiste": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "editeur_video": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "editeur_url": {
+      "type": "string"
+    }
+  }
+}

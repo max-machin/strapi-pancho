@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "disques",
+  "info": {
+    "singularName": "disque",
+    "pluralName": "disques",
+    "displayName": "Disques",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "artiste": {
+      "type": "string"
+    },
+    "pays": {
+      "type": "string"
+    },
+    "gold": {
+      "type": "integer"
+    },
+    "platine": {
+      "type": "integer"
+    }
+  }
+}

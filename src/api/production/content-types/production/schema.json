@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "productions",
+  "info": {
+    "singularName": "production",
+    "pluralName": "productions",
+    "displayName": "Productions",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "disque": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::disque.disque"
+    },
+    "position": {
+      "type": "integer"
+    }
+  }
+}
