@@ -7,11 +7,11 @@ module.exports = ({ env }) => {
     mysql: {
       connection: {
         connectionString: env('DATABASE_URL'),
-        host: env('DATABASE_HOST', 'localhost'),
+        host: env('DATABASE_HOST', '62.72.37.1'),
         port: env.int('DATABASE_PORT', 3306),
-        database: env('DATABASE_NAME', 'pancho-gyps'),
-        user: env('DATABASE_USERNAME', 'root'),
-        password: env('DATABASE_PASSWORD', ''),
+        database: env('DATABASE_NAME', 'u126400250_pancho'),
+        user: env('DATABASE_USERNAME', 'u126400250_pancho_admin'),
+        password: env('DATABASE_PASSWORD', 'Pancho_gyps_hostinger_23'),
         ssl: env.bool('DATABASE_SSL', false) && {
           key: env('DATABASE_SSL_KEY', undefined),
           cert: env('DATABASE_SSL_CERT', undefined),
