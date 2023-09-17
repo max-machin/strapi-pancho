@@ -29,17 +29,7 @@
         "audios"
       ]
     },
-    "editeur_video": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "editeur_url": {
+    "url": {
       "type": "string"
     }
   }
