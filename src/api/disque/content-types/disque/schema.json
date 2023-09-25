@@ -40,6 +40,9 @@
     },
     "platine": {
       "type": "integer"
+    },
+    "place": {
+      "type": "integer"
     }
   }
 }
