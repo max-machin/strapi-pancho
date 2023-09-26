@@ -31,6 +31,9 @@
     },
     "url": {
       "type": "string"
+    },
+    "place": {
+      "type": "integer"
     }
   }
 }
