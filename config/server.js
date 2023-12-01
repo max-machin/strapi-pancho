@@ -7,4 +7,10 @@ module.exports = ({ env }) => ({
   webhooks: {
     populateRelations: env.bool('WEBHOOKS_POPULATE_RELATIONS', false),
   },
+  admin: {
+    path: '/admin',
+    build: {
+      backend: env('ADMIN_BUILD_BACKEND', 'https://pancho-gyps-api.fr'),
+    },
+  },
 });
